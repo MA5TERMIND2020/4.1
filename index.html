@@ -1,0 +1,30 @@
+<!--
+    Author: Stephen Hammonds
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <button id="startButton" onclick="start()">Start</button> <!--The start and stop buttons will control the movement of the image-->
+    <button id="stopButton" onclick="stop()">Stop</button>
+    <div id="msg"></div> <!--This div will display the current position of the image-->
+    <img src="Stephen_Hammonds_LLC_Logo.png" id="img" style="position: absolute; left: 100px; top: 100px; width: 200px;">
+
+    <!--This is a short description of the program-->
+    <h2>The encoding of pixel location on a web browser is very similar to the 4th quadrant of a cortesean plane.<br>
+        The only difference is that the Y-values are inverted. The origin (0,0) is located in the top-left corner of<br>
+        the window and as the X value increases, the location of the pixel being referenced moves to<br>
+        the right. But as the Y value increases, the location of the pixel being referenced moves<br>
+        down. This web page provides a good way to visualize this by allowing you to see the<br>
+        coordinate point values displayed on the screen in real time<br>
+        as an image is moved across the screen.</h2>
+
+        
+</body>
+</html>

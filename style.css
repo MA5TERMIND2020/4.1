@@ -1,0 +1,22 @@
+body {
+    background-color: antiquewhite;
+}
+
+/* Positions the text to the right of the page and moves it just a little down so that it is not directly beside the other text at the top*/
+h2 {
+    text-align: right;
+    margin-left: 40px;
+    padding-top: 5em;
+}
+
+/* Positions the buttons and the div next to each other and also gives them a nice style*/
+button, div {
+    float: left;
+    font-size: x-large;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
